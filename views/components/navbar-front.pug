@@ -1,0 +1,30 @@
+nav.navbar.is-transparent
+  .navbar-brand
+    a.navbar-item.has-text-light(href="/") #{brand}
+    .navbar-burger.burger
+      span
+      span
+      span
+  .navbar-menu
+    .navbar-start
+      a.navbar-item.has-text-light(href='/')
+        span.icon
+          i.fas.fa-home
+        span Home
+
+    .navbar-end
+      a.navbar-item.has-text-light(href='gallery')
+        span.icon
+          i.fas.fa-images
+        span Gallery
+      a.navbar-item.has-text-light(href='contact')
+        span.icon
+          i.fas.fa-phone
+        span Contact
+      .navbar-item
+        .field.is-grouped
+          p.control
+            a.button.is-link(href='#')
+              span.icon
+                i.fab.fa-twitter
+              span Twitter

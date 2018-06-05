@@ -1,0 +1,17 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+// Change stuff
+.navbar {
+&.is-transparent {
+background-color: transparent;
+background-image: none;
+}
+}
+
+// Add new colors to the color map
+@import "../../node_modules/bulma/sass/utilities/derived-variables";
+
+
+// Finish, import the rest of Bulma
+@import "../../node_modules/bulma/bulma";

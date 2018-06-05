@@ -1,0 +1,31 @@
+nav.navbar.is-info
+  .container
+    .navbar-brand
+      a.navbar-item(href="/") #{brand}
+      .navbar-burger.burger
+        span
+        span
+        span
+    .navbar-menu
+      .navbar-start
+        a.navbar-item(href='/')
+          span.icon
+            i.fas.fa-home
+          span Home
+
+      .navbar-end
+        a.navbar-item(href='gallery')
+          span.icon
+            i.fas.fa-images
+          span Gallery
+        a.navbar-item(href='contact')
+          span.icon
+            i.fas.fa-phone
+          span Contact
+        .navbar-item
+          .field.is-grouped
+            p.control
+              a.button.is-link(href='#')
+                span.icon
+                  i.fab.fa-twitter
+                span Twitter

@@ -1,0 +1,38 @@
+extends ../layouts/layout.pug
+
+block content
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23688160.019108947!2d-11.0232421!3d68.7538732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9affecbd22e9283d!2sSanta&#39;s+Workshop!5e0!3m2!1sen!2spl!4v1528236184493" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  section.section
+    .container
+      .content
+        .columns
+          .column
+            p
+              span.icon
+                i.fas.fa-phone
+              span Phone Number
+            p 123 456 789
+            p
+              span.icon
+                i.fas.fa-map-marker
+              span Address
+            p Santa's Workshop
+            | Greenland
+          .column
+            form
+              .field
+                .label Name
+                .control
+                  input.input(type='text', placeholder='Brendan Fraser')
+              .field
+                .label Email
+                .control.has-icons-left
+                  input.input.is-success(type='tekst', placeholder='brendan@bestmummyactor.com')
+                  span.icon.is-small.is-left
+                    i.fas.fa-user
+              .field
+                .label Message
+                .control
+                  textarea.textarea(placeholder="why has my wife left me")
+              .field
+                input.button.is-success(type='submit',value='Send')
