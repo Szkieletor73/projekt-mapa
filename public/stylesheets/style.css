@@ -1,20 +1,36 @@
 #frontSplash {
   background-image: url('../images/frontSplash.jpg');
   background-attachment: fixed;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 #slide1 {
   background-image: url('../images/slide1.png');
+  background-position: right;
   background-attachment: fixed;
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #slide2 {
   background-image: url('../images/slide2.png');
+  background-position: left;
   background-attachment: fixed;
-  background-repeat: none;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#textBG {
+  background: rgba(255,255,255,0.8)
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.section {
+  flex: 1;
 }

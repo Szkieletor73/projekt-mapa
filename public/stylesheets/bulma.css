@@ -4,6 +4,13 @@
   background-image: none;
 }
 
+.navbar.is-transparent #navbar.is-active,
+.navbar.is-transparent #navbar.is-active .navbar-start .navbar-item:hover,
+.navbar.is-transparent #navbar.is-active .navbar-end .navbar-item:hover {
+  background-color: transparent;
+  background-image: none;
+}
+
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
